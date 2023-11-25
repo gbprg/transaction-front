@@ -20,7 +20,7 @@ export default function Home() {
     }
 
     getTransactions();
-  }, [idempotencyId, transactions]);
+  }, [idempotencyId]);
 
   return (
     <>
