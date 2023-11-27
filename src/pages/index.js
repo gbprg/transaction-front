@@ -41,7 +41,7 @@ export default function Home() {
           <tbody>
             {transactions &&
               transactions.map((transaction) => (
-                <tr key={transaction.id}>
+                <tr key={Math.random()}>
                   <td className="py-2 px-4 border-b text-left border-green-700">
                     {transaction.idempotencyId}
                   </td>
